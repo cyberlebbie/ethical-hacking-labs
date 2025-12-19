@@ -9,7 +9,7 @@ sudo su
 # Launch the Social-Engineer Toolkit
 setoolkit
 
-# --- SEToolkit Menu Navigation ---
+# - SEToolkit Menu Navigation -
 
 # 1 → Select Social-Engineering Attacks
 # 2 → Select Website Attack Vectors
@@ -25,7 +25,7 @@ setoolkit
 # SEToolkit creates a phishing replica of this site
 http://dvwa.vm
 
-# --- HTML Redirect File Creation ---
+# - HTML Redirect File Creation -
 
 # Create a simple HTML file that redirects victims
 # to the attacker-hosted cloned website
@@ -38,7 +38,7 @@ http://dvwa.vm
 
 # Save the file as 'ladies.html' on the Desktop
 
-# --- Victim Simulation ---
+# - Victim Simulation -
 
 # Open (double-click) ladies.html
 # Victim is redirected to the cloned DVWA login page
@@ -47,7 +47,7 @@ http://dvwa.vm
 # Password: 1234
 # Credentials are captured by SEToolkit
 
-# --- Stop the Attack ---
+# - Stop the Attack -
 
 # Terminate the SEToolkit web server
 Ctrl + C
@@ -58,7 +58,7 @@ Ctrl + C
 99
 99
 
-# --- View Harvested Credentials ---
+# - View Harvested Credentials -
 
 # Display the SEToolkit XML report containing captured credentials
 cat /root/.set/reports/2025-12-14\ 13:34:09.326665.xml
